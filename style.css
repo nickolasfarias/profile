@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap');
 
 
+
+
 body {
   background-color: #095256;
   color:#B3D89C;
@@ -38,6 +40,7 @@ a:hover {
 }
 
 .container {
+  width:800px;
   margin: 0 auto;
 }
 
@@ -88,20 +91,20 @@ img {
 
 
 
-@media (max-width: 1400px) {
+@media (max-width: 960px) {
   .container {
-    width: 800px;
+    width: 700px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 720px) {
   .container {
-    width: 500px;
+    width: 550px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 540px) {
   .container {
-    width: 300px;
+    width: 450px;
   }
 }
