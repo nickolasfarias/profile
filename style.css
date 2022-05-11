@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap');
+
+
+body {
+  background-color: #095256;
+  color:#B3D89C;
+  font-family:  'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color:  black;
+  font-size: 35px;
+  padding-top:10px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+p {
+  color: black;
+}
+
+a {
+  color: rgb(134, 142, 228);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color:black;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.card {
+  margin: 30px;
+  background-color: #D0EFB1;
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px black;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+img {
+  width:200px;
+  height: 200px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 20px;
+  font-size: 45px;
+}
+
+.find-button {
+  background-color: rgb(107,114,225);
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  border-radius:5px;
+}
+
+.find-button:hover{
+    background-color: #313b72;
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 1400px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    width: 300px;
+  }
+}
