@@ -101,12 +101,12 @@ img {
 
 @media (max-width: 720px) {
   .container {
-    width: 550px;
+    width: 500px;
   }
 }
 
 @media (max-width: 540px) {
   .container {
-    width: 450px;
+    width: 300px;
   }
 }
